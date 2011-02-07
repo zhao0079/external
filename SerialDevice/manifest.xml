@@ -1,0 +1,19 @@
+<package>
+  <description brief="SerialDevice">
+
+    Alex Kushleyev's SerialDevice Class
+
+  </description>
+  <author>Alex Kushleyev</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/SerialDevice</url>
+
+  <export>
+    <cpp cflags="-I${prefix}/include" 
+         lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lSerialDevice"/>
+  </export>
+
+</package>
+
+

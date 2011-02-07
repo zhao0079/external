@@ -1,0 +1,20 @@
+<package>
+  <description brief="armadillo">
+     armadillo
+  </description>
+  <author>Jon Fink</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/armadillo</url>
+
+  <export>
+    <cpp cflags="-I${prefix}/armadillo/include"
+         lflags="-Wl,-rpath,${prefix}/armadillo/lib -L${prefix}/armadillo/lib -llapack -lblas -lgfortran"/>
+    <cpp os="osx"
+         cflags="-I${prefix}/armadillo/include"
+         lflags="-Wl,-rpath,${prefix}/armadillo/lib -L${prefix}/armadillo/lib -framework Accelerate"/>
+  </export>
+
+</package>
+
+

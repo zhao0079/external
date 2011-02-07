@@ -1,0 +1,9 @@
+<stack>
+  <description brief="external">external</description>
+  <author>Maintained by Nathan Michael</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/external</url>
+  <depend stack="ros" />
+
+</stack>

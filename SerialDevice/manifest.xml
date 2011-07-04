@@ -5,9 +5,9 @@
 
   </description>
   <author>Alex Kushleyev</author>
-  <license>BSD</license>
-  <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/SerialDevice</url>
+
+
+  <url>https://fling.seas.upenn.edu/~akushley/cgi-bin/pmwiki/pmwiki.php/Site/SerialDevice</url>
 
   <export>
     <cpp cflags="-I${prefix}/include" 

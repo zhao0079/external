@@ -1,6 +1,6 @@
 all: armadillo
 
-VERSION = 1.1.0
+VERSION = 2.0.1
 TARBALL = build/armadillo-$(VERSION).tar.gz
 TARBALL_URL = http://downloads.sourceforge.net/arma/armadillo-$(VERSION).tar.gz
 SOURCE_DIR = build/armadillo-$(VERSION)

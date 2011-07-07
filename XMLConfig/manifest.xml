@@ -1,0 +1,20 @@
+<package>
+  <description brief="XMLConfig">
+
+     XMLConfig
+
+  </description>
+  <author>Nathan Michael</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/XMLConfig</url>
+
+  <depend package="tinyxml"/>
+
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lxmlconfig"/>
+  </export>
+
+</package>
+
+
